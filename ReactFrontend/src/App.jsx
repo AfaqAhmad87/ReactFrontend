@@ -22,8 +22,8 @@ getset(set-1);
   {/* {
   set ==0 ? <button onClick={()=>(getset(set+1))}>+</button> :   <button onClick={()=>(getset(set-1))}>-</button>
   } */}
-   <button onClick={Click}>+</button>
-   <button onClick={Minus}>-</button>
+   <button onClick={Click}>ADD +</button>
+   <button onClick={Minus}>REMOVE -</button>
     </>
   )
 }
